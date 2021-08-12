@@ -79,12 +79,9 @@ print("x_test  : ",x_test.shape)
 
 #%%Sequential API
 """
-For the first part of this assignment, you'll create a model using TF Keras' Sequential API
-which allows you to build layer by layer, and is ideal for building models where each layer
-has exactly one input tensor and one output tensor.
-As you'll see, using the Sequential API is simple and straightforward, but is only
-appropriate for simpler, more straightforward tasks. Later in this notebook you'll
-spend some time building with a more flexible, powerful alternative: the Functional API.
+ It is ideal for building models where each layer has exactly one input tensor
+ and one output tensor. Uusing the Sequential API is simple and straightforward,
+ but is only appropriate for simpler, more straightforward tasks.
 
 source: https://victorzhou.com/blog/keras-cnn-tutorial/
 """
