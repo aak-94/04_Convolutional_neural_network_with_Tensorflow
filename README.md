@@ -1,7 +1,7 @@
 # 04_Convolutional_neural_network_with_Tensorflow
  Convolutional_neural_network_with_Tensorflow
   ## Goal:
- - To understand different APIs for neural network developement
+ - To understand different APIs for neural network developement in tensorflow framework
  
  ## APIs types
 1. Sequential API:
