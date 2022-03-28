@@ -13,6 +13,10 @@ Objective:
     Both APIs are applied in context of CNN
 """
 
+"""
+some temp dev branch is created
+"""
+
 #%% import libraries
 import tensorflow as tf
 from tensorflow import keras
@@ -77,7 +81,7 @@ x_train, x_test = np.expand_dims(x_train,axis= -1), np.expand_dims(x_test,axis =
 print("x_train : ",x_train.shape)
 print("x_test  : ",x_test.shape)
 
-#%%Sequential API
+#%% Sequential API
 """
  It is ideal for building models where each layer has exactly one input tensor
  and one output tensor. Uusing the Sequential API is simple and straightforward,
